@@ -1,0 +1,133 @@
+.body {
+    width: 100%;
+    height: 100%;
+}
+
+.contanier {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: auto; 
+    margin: auto; 
+}
+
+.header{
+    display: flex;
+    float: right;
+    align-items: baseline;
+    padding-right: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+.box{
+    background-color: rgb(43, 101, 226);
+    border-radius: 5px;
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    margin-left: 10px;
+    min-width: 40px;
+    padding: 9px 20px;
+}
+
+.box a {
+    text-align: center;
+    color: white;
+}
+
+.dope img{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.ken{    
+    padding-left: 750px;
+    padding-top: 250px;
+    width: 20%;
+
+}
+
+.footer{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-between;    
+}
+
+.foot{
+    background-color: whitesmoke;
+    padding-bottom: 5px;
+    border: 1px solid whitesmoke;
+    border-bottom-color: rgba(10, 14, 14, 0.582);
+}
+
+.listen{
+    justify-content: start;
+}
+
+.listen a{
+    margin: 3px;
+    text-decoration: none;
+    color: rgb(49, 45, 45);
+    font-size: 15px;
+}
+
+.first-list a{
+    margin: 5px;
+    text-decoration: none;
+    color: rgb(49, 45, 45);
+    font-size: 15px;
+    justify-content: flex-start;
+    order: 1;
+}
+
+.second-list a{
+    margin: 45px;
+    text-decoration: none;
+    color: rgb(49, 45, 45);
+    font-size: 15px;
+    padding-right: 20px;
+}
+
+.third-list a{
+    margin: 5px;
+    text-decoration: none;
+    color: rgb(49, 45, 45);
+    font-size: 15px;
+    padding-right: 5px;
+}
+
+input[type="text"]
+{
+    font-size: 40px;
+    border-radius: 30px;
+    width: 60%;
+}
+
+.bug img{
+    float: left;
+    
+    
+}
+
+.bug {
+    padding-left: 30%;
+}
+
+.dug{
+    margin: 30px;
+    padding: 10px 10px
+}
+
+.block {
+    padding: 10px 50px;
+    font-size: 16px;
+    margin-left:6%;
+    margin-right:5px;
+  }
+
