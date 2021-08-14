@@ -104,15 +104,14 @@
 
 input[type="text"]
 {
-    font-size: 40px;
+    font-size: 38px;
     border-radius: 30px;
-    width: 60%;
+    width: 45%;
+    margin-left: 80px;
 }
 
 .bug img{
     float: left;
-    
-    
 }
 
 .bug {
@@ -120,14 +119,21 @@ input[type="text"]
 }
 
 .dug{
-    margin: 30px;
+    margin: 20px;
     padding: 10px 10px
 }
 
-.block {
-    padding: 10px 50px;
-    font-size: 16px;
-    margin-left:6%;
-    margin-right:5px;
+.dug button.block {
+    padding: 8px 40px;  
+    margin-left: 12%;
+    margin-right: -140px;
   }
-
+  .icons{
+      position: absolute;
+      display: flex;
+      justify-content: space-around;
+      width: 1050px;
+      top: 400px;
+      margin-left: -150px;
+      
+  }
