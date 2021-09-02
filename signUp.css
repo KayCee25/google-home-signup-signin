@@ -61,7 +61,7 @@ h1 {
      margin-left: -45px;
  }
 
- input[type="text"]{
+.name{
     width: 80%;
     height: 40%;
     margin: 35px;
@@ -78,7 +78,7 @@ h1 {
 }
 
 
-input[type="text2"]{
+.email{
     width: 42%;
     height: 6%;
     margin-left: 80px;

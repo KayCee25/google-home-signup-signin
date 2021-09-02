@@ -1,6 +1,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="signUp.css">
+        <!-- <script src="script.js"></script> -->
     </head>
 
     <body>
@@ -19,15 +20,15 @@
                     
                     <div class="nav">
                     <div class="bug">
-                        <input type="text" placeholder="First Name">
+                        <input type="text" class="name" id="first-name" value=""  placeholder="First Name">
                     </div>
 
                     <div class="bug2">
-                        <input type="text" placeholder="Last Name">
+                        <input type="text" class="name lastName" id="last-name" value=""  placeholder="Last Name">
                     </div>
                 </div>
  
-                <input type="text2" placeholder="Username @gmail.com">
+                <input type="email" class="email" id="email"  placeholder="Username @gmail.com">
                 <p>You can use Letters, Numbers & Periods</p>
 
                 <div class="dav">
@@ -36,11 +37,11 @@
     
                 <div class="nav">
                     <div class="bug">
-                        <input type="text" placeholder="Password">
+                        <input type="password" class="name" id="password"  placeholder="Password">
                     </div>
 
                     <div class="bug2">
-                        <input type="text" placeholder="Confirm">
+                        <input type="password" class="name" id="confirm" placeholder="Confirm">
                     </div>
                 </div>
                 <p>Use 8 or more characters with a mix of letters, numbers &<br> symbols</p>
@@ -48,10 +49,10 @@
                     <a href="">Show Password</a>    
                 </div> 
                 <div class="dag">
-                    <a href="/Sign/index.html">Sign in instead</a>
+                    <a href="/signin.html">Sign in instead</a>
                 </div>
-                <div class="dag2">
-                    <a href="">Next</a>
+                <div class="dag2" id="submit" >
+                    <a href="#" >Next</a>
                 </div>  
         </div>
             </div>
@@ -70,4 +71,5 @@
         </div>
 
     </body>
+<script src="script.js"></script>
 </html>

@@ -15,7 +15,7 @@
                 <h1>Use Your Google Account</h1>
 
                 <div class="bug">
-                    <input type="text" placeholder="Email or Phone">
+                    <input type="text" id="emailInput" placeholder="Email or Phone">
                 </div>
                 <div class="dav">
                 <a href="">Forgot email?</a>
@@ -30,8 +30,8 @@
             <div class="dag">
                 <a href="/signup.html">Create account</a>
             </div>
-            <div class="dag2">
-                <a href="">Next</a>
+            <div class="dag2" id="submitBtn">
+                <a href="" >Next</a>
             </div>
             </div>
 
@@ -47,7 +47,27 @@
                         <a href="">Terms</a>
                     </ul>
                 </div>
-     
+     <script>
+
+let email = document.getElementById("emailInput")
+// let lastName = document.getElementById("lastName")
+let button = document.getElementById("submitBtn")
+
+
+
+
+
+button.addEventListener("click", () => {
+    if(email.value === ""){
+        alert("email is required")
+    }else{
+        alert("Page will be available soon!")
+ }
+})
+
+
+
+     </script>
      
         </body>
     </html>
